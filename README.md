@@ -1,12 +1,12 @@
-# discord-lite
-A lightweight wrapper for the Discord API
+# discord-new
+A new Javascript wrapper for the Discord API
 
 ## Installing
-> npm i discord.lt
+> npm i discord.new
 
 ```JS
-const DiscordLite = require('discord.lt');
-const client =  new DiscordLite.Client();
+const Discord = require('discord.new');
+const client =  new Discord.Client();
 
 client.login('your bot token');
 
